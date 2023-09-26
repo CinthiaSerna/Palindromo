@@ -220,18 +220,19 @@
             <div class="column is-6-desktop">
                 <div class="card card-lg">
                     <div class="card-body">
-                        <h3 class="card-title h5">I need something unique, Can you make it?</h3>
-                        <p class="card-text content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
-                            praesentium
-                            nisi officiis maiores quia sapiente totam omnis vel sequi corporis ipsa incidunt reprehenderit
-                            recusandae
-                            maxime perspiciatis iste placeat architecto, mollitia delectus <a
-                                    href="https://examplesite.com">link</a>
-                            ut ab quibusdam. Magnam cumque numquam tempore reprehenderit illo, unde cum omnis vel sed
-                            temporibus,
-                            repudiandae impedit nam ad enim porro, qui labore fugiat quod suscipit fuga necessitatibus.
-                            Perferendis,
-                            ipsum?</p>
+                        <h3 class="card-title h5">Tabla de resultados</h3>
+                        <table border="1">
+                            <tr>
+                                <th>Palabra</th>
+                                <th>Es Palíndromo</th>
+                            </tr>
+                            <tr>
+                                <td id="palabraResultado"></td>
+                                <td id="resultado"></td>
+                            </tr>
+                        </table>
+
+
                     </div>
                 </div>
             </div>
